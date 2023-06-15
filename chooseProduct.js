@@ -1,10 +1,9 @@
-function chooseProduct(segment) {
-    const sabor = "";
-    if(segment === "Beverage"){sabor = "Soda" }
-    if(segment === "Fruit"){sabor = "Apple" }
-    if(segment === "Hygiene"){sabor = "Soap" }
-
-    return sabor
+function chooseProduct(segment) {    
+    const segmento = segment.toLowerCase()
+    if(segmento === "bebida") return "Soda" 
+    if(segmento === "fruta") return "Apple"
+    if(segmento === "higiene")return "Soap"
+    
 }
 
 module.exports = chooseProduct;
