@@ -3,9 +3,9 @@ function chooseProduct(segment) {
     let sabor;
     if(segmento === "beverage") sabor = "Soda" 
     if(segmento === "fruit") sabor = "Apple"
-    if(segmento === "hygiene")sabor = "Soap"    
+    if(segmento === "hygiene")sabor = "Soap"   
     
-    console.log(sabor)
+    return sabor;
     
 }
 
