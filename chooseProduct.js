@@ -1,12 +1,14 @@
 function chooseProduct(segment) {    
     const segmento = segment.toLowerCase()
     let sabor;
-    if(segmento === "Beverage") sabor = "Soda" 
-    if(segmento === "Fruit") sabor = "Apple"
-    if(segmento === "Hygiene")sabor = "Soap"    
+    if(segmento === "beverage") sabor = "Soda" 
+    if(segmento === "fruit") sabor = "Apple"
+    if(segmento === "hygiene")sabor = "Soap"    
     
-    return sabor
+    console.log(sabor)
+    
 }
+
 
 module.exports = chooseProduct;
 
